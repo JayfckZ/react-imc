@@ -1,0 +1,9 @@
+.header{
+    background-color: var(--corPrincipal);
+    padding: 16px;
+}
+
+.title{
+    text-align: center;
+    color: white;
+}

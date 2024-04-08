@@ -1,0 +1,50 @@
+#secForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    padding: 20px 50px;
+    background-color: #d1d8e0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formItem{
+    margin-bottom: 12px;
+}
+
+.formLabel{
+    margin-top: 8px;
+    display: block;
+}
+
+.formInput{
+    display: block;
+    padding: 8px;
+    margin-top: 8px;
+    border: none;
+    border-bottom: 2px solid var(--corPrincipal);
+    border-radius: 5px;
+}
+
+.formInput:focus{
+    outline: none;
+}
+
+.formButton{
+    padding: 12px;
+    display: block;
+    background-color: var(--corPrincipal);
+    color: white;
+    border: none;
+    border-radius: 10%;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.formButton:hover{
+    background-color: #2e53a9;
+}

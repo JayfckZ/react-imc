@@ -1,0 +1,34 @@
+h4{
+    text-align: center;
+    margin-top: 16px;
+    font-size: 22px;
+}
+
+h4 span{
+    
+    background-color: var(--corPrincipal);
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+h5{
+    margin: 8px 0 16px;
+    font-size: 18px;
+    text-align: center;
+}
+
+th{
+    background-color: var(--corPrincipal);
+    padding: 8px 115px;
+    color: white;
+
+    @media (max-width: 576px) {
+        padding: 8px 50px;
+    }
+}
+
+td{
+    padding: 8px;
+    text-align: center;
+}
