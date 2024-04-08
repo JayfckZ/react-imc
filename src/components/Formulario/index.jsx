@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import InputMask from 'react-input-mask'
 import styles from './Formulario.module.css'
 import Resultado from '../Resultado/'
@@ -39,7 +39,7 @@ const Formulario = () => {
                     </div>
                     <div className={styles.formItem}>
                         <label className={styles.formLabel} htmlFor="alt">Insira sua altura:</label>
-                        <InputMask required className={styles.formInput} type="text" id="alt" placeholder="Ex.: 180cm" mask="9.99" maskChar="" onBlur={e => setAltura(parseFloat(e.target.value))} />
+                        <InputMask required className={styles.formInput} type="text" id="alt" placeholder="Ex.: 1.80m" mask="9.99" maskChar="" onBlur={e => setAltura(parseFloat(e.target.value))} />
                     </div>
                     <button className={styles.formButton} onClick={calculaIMC}>Calcular</button>
                 </form>
